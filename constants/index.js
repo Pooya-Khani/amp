@@ -45,79 +45,65 @@ const abilities = [
 
 const techStackImgs = [
 	{
-		name: "React Developer",
-		imgPath: "/images/logos/react.png",
+		name: "اینستاگرام | Instagram",
+		imgPath: "/images/logos/instagram.png",
+		link: "https://react.dev/",
 	},
 	{
-		name: "Python Developer",
-		imgPath: "/images/logos/python.svg",
+		name: "تلگرام | Telegram",
+		imgPath: "/images/logos/telegram.png",
+		link: "https://react.dev/",
 	},
 	{
-		name: "Backend Developer",
-		imgPath: "/images/logos/node.png",
-	},
-	{
-		name: "Interactive Developer",
-		imgPath: "/images/logos/three.png",
-	},
-	{
-		name: "Project Manager",
-		imgPath: "/images/logos/git.svg",
+		name: "واتساپ | Whatsapp",
+		imgPath: "/images/logos/whatsapp.png",
+		link: "https://react.dev/",
 	},
 ];
 
 const techStackIcons = [
 	{
-		name: "React Developer",
-		modelPath: "/models/react_logo-transformed.glb",
-		scale: 1,
+		name: "اینستاگرام | Instagram",
+		modelPath: "/models/instagram.glb",
+		scale: 1.5,
 		rotation: [0, 0, 0],
+		link: "https://react.dev/",
 	},
 	{
-		name: "Python Developer",
-		modelPath: "/models/python-transformed.glb",
-		scale: 0.8,
+		name: "تلگرام | Telegram",
+		modelPath: "/models/telegram.glb",
+		scale: 1.5,
 		rotation: [0, 0, 0],
+		link: "https://react.dev/",
 	},
 	{
-		name: "Backend Developer",
-		modelPath: "/models/node-transformed.glb",
-		scale: 5,
-		rotation: [0, -Math.PI / 2, 0],
-	},
-	{
-		name: "Interactive Developer",
-		modelPath: "/models/three.js-transformed.glb",
-		scale: 0.05,
+		name: "واتساپ | Whatsapp",
+		modelPath: "/models/whatsapp.glb",
+		scale: 1.5,
 		rotation: [0, 0, 0],
-	},
-	{
-		name: "Project Manager",
-		modelPath: "/models/git-svg-transformed.glb",
-		scale: 0.05,
-		rotation: [0, -Math.PI / 4, 0],
+		link: "https://react.dev/",
 	},
 ];
 
 const expCards = [
 	{
 		review:
-			"Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-		imgPath: "/images/exp1.png",
+			"برای سرویس دوره‌ای و عیب‌یابی خودرو به این تعمیرگاه مراجعه کردم. از همان ابتدا با دقت مشکل را تشخیص دادند و خیلی سریع و با قطعات باکیفیت برطرفش کردند. برخورد تیم بسیار محترمانه بود و هزینه‌ها هم منصفانه محاسبه شد. بعد از تعمیر، خودرو مثل روز اول نرم و بدون صدا کار می‌کند. قطعاً دوباره مراجعه می‌کنم و به دوستانم هم پیشنهاد می‌دهم.",
+		// imgPath: "/images/exp1.png",
 		logoPath: "/images/logo1.png",
-		title: "Frontend Developer",
-		date: "January 2023 - Present",
+		title: "تعمیرگاه خودرو",
+		date: "1402 - تا امروز",
 		responsibilities: [
-			"Developed and maintained user-facing features for the Hostinger website.",
-			"Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-			"Optimized web applications for maximum speed and scalability.",
+			"تشخیص و عیب‌یابی تخصصی سیستم‌های موتور، برق و تعلیق.",
+			"انجام سرویس‌های دوره‌ای (تعویض روغن، فیلترها، لنت و مایع‌ها).",
+			"استفاده از قطعات اصل و تحویل به‌موقع با ضمانت کیفیت.",
 		],
 	},
 
 	{
 		review:
 			"من یک مکانیک هستم که چند بار از این فروشگاه خرید کردم و هر بار راضی بودم و قطعاتشون از کیفیت بالایی برخوردار بود و مشتری ها هم بسیار راضی بودن. قطعاتی که گرفتم همکی اصل بودن و کیفیتشون دقیقا همون چیزی بود که انتظار داشتم و همچنین قیمت بسیار مناسبی داشتن.",
-		imgPath: "/images/exp3.png",
+		// imgPath: "/images/exp3.png",
 		logoPath: "/images/logo2.png",
 		title: "فروشگاه لوازم یدکی خودرو",
 		date: "1404 - تا امروز",

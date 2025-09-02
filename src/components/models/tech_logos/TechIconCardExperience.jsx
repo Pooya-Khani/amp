@@ -19,7 +19,7 @@ const TechIconCardExperience = ({ model }) => {
 	}, [scene, model.name]);
 
 	return (
-		<Canvas>
+		<Canvas camera={{ position: [0, 0, 5], fov: 45 }}>
 			<ambientLight intensity={0.3} />
 			<directionalLight position={[5, 5, 5]} intensity={1} />
 			<spotLight
@@ -48,7 +48,11 @@ const TechIconCardExperience = ({ model }) => {
         that make up the 3D model.
       */}
 			<Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
-				<group scale={model.scale} rotation={model.rotation}>
+				<group
+					scale={model.scale}
+					rotation={model.rotation}
+					position={[0, 0, 0]}
+				>
 					<primitive object={scene.scene} />
 				</group>
 			</Float>
