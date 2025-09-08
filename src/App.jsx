@@ -1,7 +1,8 @@
 // نظر کاربران
 // import Testimonials from "./sections/Testimonials";
-// import Footer from "./sections/Footer";
+import Footer from "./sections/Footer";
 // import Contact from "./sections/Contact";
+// import Address from "./sections/Address";
 import SocialMedia from "./sections/SocialMedia";
 import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
@@ -16,9 +17,10 @@ const App = () => (
 		{/* <FeatureCards /> */}
 		<Experience />
 		<SocialMedia />
+		{/* <Address /> */}
 		{/* <Testimonials /> */}
-		{/* <Contact />
-		<Footer /> */}
+		{/* <Contact /> */}
+		<Footer />
 	</>
 );
 
